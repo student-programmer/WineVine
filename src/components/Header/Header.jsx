@@ -1,7 +1,7 @@
 import React from 'react'
 import h from './Header.module.css'
 import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Header = () => {
  const navigate = useNavigate()
@@ -17,11 +17,11 @@ const Header = () => {
         </div>
     <div className={h.list}>
         <ul>
-            <li className={h.list_item}>каталог</li>
+            <li className={h.list_item}><Link to={'catalog'}>каталог</Link></li>
             <li className={h.list_item}><Link to={'conditions'}>условия продажи</Link></li>
-            <li className={h.list_item}>о компании</li>
+            <li className={h.list_item}><Link to={'company'}>о компании</Link></li>
             <li className={h.list_item}><Link to={'club'}>клубная программа</Link></li>
-            <li className={h.list_item}>контакты</li>
+            <li className={h.list_item}><Link to={'contact'}>контакты</Link></li>
         </ul>
         </div>
 

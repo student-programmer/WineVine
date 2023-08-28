@@ -1,0 +1,114 @@
+.contact {
+    width: 622px;
+    height: 975px;
+    position: relative;
+    left: 127px;
+    top: 140px;
+    margin-bottom: 200px;
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.phone {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 40px;
+}
+.number {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+}
+.mail_text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 120px;
+}
+
+.mail {
+    position: absolute;
+    top: 170px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+.time {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 220px;
+}
+.time_text {
+    position: absolute;
+    top: 270px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+.rek {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 340px;
+}
+.rek_text {
+    position: absolute;
+    top: 380px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+.schema{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 500px;
+}
+
+.map{
+    position:absolute;
+    bottom:0px;
+}
