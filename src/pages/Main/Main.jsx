@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import a from './Main.module.css';
 import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector';
 import one from '../../assets/images/1.png';
@@ -6,7 +6,23 @@ import two from '../../assets/images/2.png';
 import five from '../../assets/images/5.png';
 import six from '../../assets/images/6.png';
 import seven from '../../assets/images/7.png';
+import Warning from '../../components/Warning/Warning';
 const Main = () => {
+
+    	const [modal, setModal] = useState(true);
+
+			const toggleModal = () => {
+				setModal(!modal);
+                localStorage.setItem('storedData', JSON.stringify(modal));
+			};
+			if (modal) {
+				document.body.classList.add('activeModal');
+			} else {
+				document.body.classList.remove('activeModal');
+			}
+
+
+    const data = JSON.parse(localStorage.getItem('storedData'));
   return (
     <div className={a.App}>
             <div className={a.one_display}>
@@ -82,6 +98,7 @@ const Main = () => {
                         </p>
                     </div>
                 </div>
+                {data && <Warning toggleModal={toggleModal} />}
                 <img src={seven} alt='' className={a.seven} />
             </div>
         </div>

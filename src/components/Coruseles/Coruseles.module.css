@@ -1,0 +1,19 @@
+.text {
+	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 59px;
+	letter-spacing: 0.025em;
+	text-align: left;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 49px;
+	letter-spacing: 0.025em;
+	text-align: left;
+    width:510px;
+    height:100px;
+    position:absolute;
+    /* left:189px; */
+    top:-196px;
+}

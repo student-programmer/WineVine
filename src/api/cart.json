@@ -1,0 +1,21 @@
+{ 
+"data":[
+    {
+        "name": "Le Contesse Prosecco Brut Treviso DOC ",
+        "description": "шампанское Ле Контессе Просекко Тревизо Брют ДОК 0.75 л",
+        "price": "1557 РУБ.",
+        "img": "../../assets/images/11.png",
+        "count": "1",
+        "button": "В КОРЗИНУ"
+    },
+    {
+        "name": "Le Contesse Prosecco Brut Treviso DOC ",
+        "description": "шампанское Ле Контессе Просекко Тревизо Брют ДОК 0.75 л",
+        "price": "1557 РУБ.",
+        "img": "../../assets/images/11.png",
+        "count": "1",
+        "button": "В КОРЗИНУ"
+    }
+
+]
+}

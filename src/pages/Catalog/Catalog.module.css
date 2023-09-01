@@ -1,0 +1,133 @@
+.wrapper {
+	position: relative;
+	height: 1500px;
+	width: 100%;
+	background: #efefef;
+}
+
+.catalog {
+	position: absolute !important;
+	left: 50%;
+	top: 570px;
+	transform: translateX(-50%);
+	display: grid;
+	width: 930px;
+	height: 720px;
+	grid-template-rows: repeat(2, 324px);
+	grid-template-columns: repeat(3, 250px);
+	gap: 80px;
+}
+
+.item {
+	width: 250px;
+	height: 324px;
+	position: relative;
+	background: white;
+	cursor: pointer;
+}
+.item_name {
+	font-family: Montserrat;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 13px;
+	letter-spacing: 0.025em;
+	text-align: left;
+	position: absolute;
+	left: 61px;
+	width: 167px;
+	top: 30px;
+}
+.item_description {
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 12px;
+	letter-spacing: 0.025em;
+	text-align: left;
+
+	position: absolute;
+	left: 61px;
+	top: 72px;
+	width: 159px;
+}
+.item_price {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.025em;
+	text-align: left;
+	position: absolute;
+	left: 61px;
+	top: 226px;
+	width: 80px;
+}
+.item_button {
+	border: 1px solid #862225;
+	width: 93px;
+	height: 27px;
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 12px;
+	letter-spacing: 0.025em;
+	text-align: left;
+	color: #862225;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 112px;
+	top: 267px;
+}
+
+.search {
+	width: 531px;
+	height: 34px;
+	border: 2px solid #cacaca;
+	/* background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 400px center; */
+}
+
+.search_wrapper {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 460px;
+	width: 431px;
+	height: 40px;
+	display: flex;
+}
+.search_icon {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.counter {
+	width: 41px;
+	height: 27px;
+	border: 1px solid #dbdbdb;
+	color: #dbdbdb;
+	display: flex;
+	position: absolute;
+	left: 60px;
+	top: 267px;
+}
+.button1 {
+	border: none;
+	width: 9px;
+	height: 4px;
+	background-color: white;
+    top:-8px;
+    right:8px;
+    position:absolute;
+}
+.button2 {
+	border: none;
+	background-color: white;
+	width: 9px;
+	height: 4px;
+        top:4px;
+    right:8px;
+    position:absolute;
+}
