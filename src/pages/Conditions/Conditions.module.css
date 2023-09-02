@@ -1,177 +1,367 @@
 .wrapper {
-    height: 1754px;
-    width: 100%;
-    position: relative;
+	height: 1754px;
+	width: 100%;
+	position: relative;
 }
 
 .name_display {
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 49px;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 49px;
 }
 .quest {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 101px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 101px;
 }
 
 .description {
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 171px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 171px;
 }
 .error {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 276px;
-    color: rgba(134, 34, 37, 1);
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 276px;
+	color: rgba(134, 34, 37, 1);
 }
 .text {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 130px;
-    top: 326px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 130px;
+	top: 326px;
 }
 .text_description {
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
 
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 366px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 366px;
 }
 
 .garant {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 539px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 539px;
 }
 
 .grant_text {
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    left: 129px;
-    top: 579px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 579px;
 }
 
 .refund {
-    position: absolute;
-    left: 130px;
-    top: 654px;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
+	position: absolute;
+	left: 130px;
+	top: 654px;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
-.refund_text{
-    font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
+.refund_text {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
 
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-left: 129px;
-top: 694px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 694px;
 }
-.agree{
-    font-family: Montserrat;
-font-size: 20px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-left: 130px;
-top: 949px;
-}
-
-.agree_text{
-    font-family: Montserrat;
-font-size: 15px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-left: 129px;
-top: 992px;
+.agree {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 130px;
+	top: 949px;
 }
 
-.image1{
-    position: absolute;
-top: 1108px;
-left:326px;
+.agree_text {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	left: 129px;
+	top: 992px;
 }
-.image2{
-    position: absolute;
-top: 1108px;
-right:330px;
+
+.image1 {
+	position: absolute;
+	top: 1108px;
+	left: 326px;
+}
+.image2 {
+	position: absolute;
+	top: 1108px;
+	right: 330px;
+}
+
+@media (max-width: 1440px) {
+	.wrapper {
+		height: 2500px;
+	}
+	.image2 {
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 1900px;
+	}
+	.image1 {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 1300px;
+	}
+	.name_display {
+		top: 49px;
+	}
+	.quest {
+		top: 171px;
+	}
+
+	.description {
+		top: 240px;
+	}
+	.error {
+		top: 476px;
+	}
+	.text {
+		top: 526px;
+	}
+	.text_description {
+		top: 566px;
+	}
+
+	.garant {
+		top: 739px;
+	}
+
+	.grant_text {
+		top: 779px;
+	}
+
+	.refund {
+		top: 895px;
+	}
+
+	.refund_text {
+		top: 920px;
+	}
+	.agree {
+		top: 1149px;
+	}
+
+	.agree_text {
+		top: 1192px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.wrapper {
+		height: 2900px;
+	}
+	.image2 {
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 2300px;
+	}
+	.image1 {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 1700px;
+	}
+	.name_display {
+		top: 49px;
+	}
+	.quest {
+		top: 80px;
+	}
+
+	.description {
+		top: 110px;
+	}
+	.error {
+		top: 376px;
+	}
+	.text {
+		top: 456px;
+	}
+	.text_description {
+		top: 506px;
+	}
+
+	.garant {
+		top: 839px;
+	}
+
+	.grant_text {
+		top: 879px;
+	}
+
+	.refund {
+		top: 1044px;
+	}
+
+	.refund_text {
+		top: 1100px;
+	}
+	.agree {
+		top: 1500px;
+	}
+
+	.agree_text {
+		top: 1550px;
+	}
+}
+
+@media (max-width: 530px) {
+	.wrapper {
+		height: 3250px;
+	}
+	.image2 {
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 2700px;
+	}
+	.image1 {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 2150px;
+	}
+	.name_display {
+		left: 30px;
+		top: 49px;
+		left: 30px;
+	}
+	.quest {
+		top: 80px;
+		left: 30px;
+	}
+
+	.description {
+		top: 110px;
+		left: 30px;
+	}
+	.error {
+		top: 476px;
+		left: 30px;
+	}
+	.text {
+		top: 606px;
+		left: 30px;
+	}
+	.text_description {
+		top: 656px;
+		left: 30px;
+	}
+
+	.garant {
+		top: 1039px;
+		left: 30px;
+	}
+
+	.grant_text {
+		top: 1100px;
+		left: 30px;
+	}
+
+	.refund {
+		top: 1344px;
+		left: 30px;
+	}
+
+	.refund_text {
+		top: 1400px;
+		left: 30px;
+	}
+	.agree {
+		top: 1900px;
+		left: 30px;
+	}
+
+	.agree_text {
+		top: 1950px;
+		left: 30px;
+	}
 }

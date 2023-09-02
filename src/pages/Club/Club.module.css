@@ -145,13 +145,13 @@
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
     width: 449px;
     height: 500px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 143px;
+    top: 125px;
 }
 .text_input1 {
     font-family: Montserrat;
@@ -159,20 +159,22 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    left: 495px;
+    /* left: 515px;
     position: absolute;
-    top: 125px;
+    top: 120px; */
     color: white;
+    margin-bottom:5px;
 }
 .text_input2 {
+    margin-bottom:5px;
     font-family: Montserrat;
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    position: absolute;
-    left: 495px;
-    top: 216px;
+    /* position: absolute;
+    left: 515px;
+    top: 210px; */
     color: white;
 }
 .text_input3 {
@@ -181,10 +183,11 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    left: 495px;
+    /* left: 515px;
     position: absolute;
-    top: 315px;
+    top: 305px; */
     color: white;
+    margin-bottom:5px;
 }
 .text_input4 {
     font-family: Montserrat;
@@ -192,10 +195,11 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    left: 495px;
-    top: 410px;
-    position: absolute;
+    /* left: 515px;
+    top: 400px;
+    position: absolute; */
     color: white;
+    margin-bottom:5px;
 }
 .text_input5 {
     font-family: Montserrat;
@@ -203,10 +207,11 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    left: 495px;
+    /* left: 515px;
     position: absolute;
-    top: 500px;
+    top: 490px; */
     color: white;
+    margin-bottom:5px;
 }
 .put {
     background-color: rgba(76, 134, 136, 1);
@@ -225,7 +230,103 @@
     align-items: center;
     border:none;
     position:absolute;
-    left:50%;
+     left:50%;
     transform: translateX(-50%);
     top:610px;
+}
+/* 
+
+@media (max-width:1440px){
+    .input-text
+} */
+
+@media (max-width:1280px) {
+.text1{
+    width:100%;
+}
+.text2{
+    width:100%;
+    top:200px;
+}
+.two_display{
+    height:350px;
+}
+.text_last{
+    width:800px;
+    height:auto;
+    text-align: center;
+}
+
+}
+@media (max-width:1024px) {
+.text{
+    font-size:25px;
+    width:800px;
+}
+.accept{
+    font-size:26px;
+
+}
+}
+@media (max-width:800px) {
+.text{
+    font-size:22px;
+    width:450px;
+}
+.accept{
+    font-size:24px;
+    width:450px;
+    top:550px;
+}
+.common{
+    top:640px;
+}
+.two_display{
+    height:550px;
+}
+.text2{
+    top:300px;
+}
+.text_last{
+    font-size:26px;
+    width:450px;
+}
+.name_display{
+    font-size:36px;
+    width:450px;
+}
+}
+@media (max-width:450px) {
+.text{
+    font-size:16px;
+    width:360px;
+}
+.accept{
+    font-size:20px;
+    width:360px;
+    top:550px;
+}
+.common{
+    top:640px;
+}
+.two_display{
+    height:550px;
+}
+.text2{
+    top:300px;
+}
+.text_last{
+    font-size:20px;
+    width:360px;
+}
+.name_display{
+    font-size:30px;
+    width:360px;
+}
+.inputs{
+    width:360px;
+}
+.form_input{
+    width:360px;
+}
 }

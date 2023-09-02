@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import p from './Product.module.css'
 import product from '../../assets/images/product.png'
+import { Link } from 'react-router-dom';
 const Product = () => {
 
 
@@ -56,7 +57,9 @@ const Product = () => {
 						</button>
 					</div>
 				</div>
-				<button className={p.cart}>В КОРЗИНУ</button>
+				<button className={p.cart}>
+					<Link to='../cart'>В КОРЗИНУ</Link>
+				</button>
 			</div>
 			<p className={p.big_text}>
 				Le Contesse, Prosecco Brut, Treviso DOC — сухое игристое вино, созданное

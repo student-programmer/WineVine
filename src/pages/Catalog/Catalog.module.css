@@ -79,6 +79,12 @@
 	position: absolute;
 	left: 112px;
 	top: 267px;
+	background-color: white;
+
+}
+.item_button a{
+		text-decoration: none;
+	color: #862225;
 }
 
 .search {
@@ -130,4 +136,28 @@
         top:4px;
     right:8px;
     position:absolute;
+}
+@media (max-width:953px) {
+.catalog{
+	grid-template-columns: repeat(2, 250px);
+	grid-template-rows: repeat(3, 324px);
+	width:580px;
+};
+.wrapper{
+		height:1900px !important;
+}
+}
+@media (max-width:610px) {
+.catalog{
+	grid-template-columns: repeat(1, 250px);
+	grid-template-rows: repeat(6, 324px);
+	width:250px;
+};
+.wrapper{
+		height:3100px !important;
+}
+.search_wrapper{
+	width:350px;
+}
+
 }

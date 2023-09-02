@@ -93,6 +93,10 @@
     border: none;
     cursor: pointer;
 }
+.by a{
+    text-decoration: none;
+    color:#862225;
+}
 
 .two_display {
     position: relative;
@@ -260,4 +264,157 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+@media (max-width:1280px) {
+.elipse{
+    right:10px;
+}
+.bottle{
+    display: none;
+}
+.glasses{
+    position: absolute;
+    left:-100px;
+}
+.text1{
+    left:600px;
+}
+.text2{
+    left:558px;
+}
+.text3{
+    left:566px;
+}
+.by{
+    left:603px;
+}
+.discount{
+    left:842px;
+}
+.question_list{
+left:50%;
+transform: translateX(-50%);
+}
+}
+
+
+@media (max-width:1024px) {
+.glasses{
+  display:none;
+}
+.text1{
+    left:50%;
+    transform: translateX(-50%);
+    width:425px;
+    top:186px;
+}
+.text2{
+        left:50%;
+    transform: translateX(-50%);
+    top:218px;
+}
+.text3{
+        left:50%;
+    transform: translateX(-50%);
+    width:510px;
+    top:333px;
+}
+.by{
+    left:20%;
+    top:426px;
+}
+.discount{
+    left:auto;
+    right:15%;
+    top:426px;
+}
+.one_display{
+    height:600px;
+}
+.four_name{
+    width:580px;
+    font-size:34px;
+    right:auto;
+    left:50%;
+    transform:translateX(-50%);
+}
+.reactangle{
+    width:100%
+}
+.name_display{
+    left:50%;
+    transform: translateX(-50%);
+}
+.text_history{
+    left:50%;
+    transform: translateX(-50%);
+}
+}
+
+@media (max-width:830px) {
+.display{
+    display:none;
+}
+.laptop{
+    display:none;
+}
+.elipse{
+   right:50px;
+}
+.question_list{
+    width:400px;
+}
+.question{
+    width:400px;
+}
+.question_text{
+    font-size:15px;
+}
+}
+@media (max-width:530px) {
+    .seven{
+        display: none;
+    }
+.three_display{
+    display:none;
+}
+.four_name{
+    font-size:23px;
+    width:400px;
+}
+.text1{
+    font-size:16px;
+    width:250px;
+}
+.text2{
+    font-size:64px;
+}
+.text3{
+    font-size:18px;
+    width:230px;
+}
+.by{
+    left:50%;
+    transform:translateX(-50%)
+}
+.discount{
+    top:500px;
+    left:50%;
+    right:50%;
+    transform:translateX(-50%)
+}
+.text_history{
+    font-size:13px;
+    width:300px;
+}
+.question_list{
+    width:350px;
+}
+.question{
+    width:350px;
+}
+.four_name{
+    font-size:20px;
+    width:340px;
+}
 }

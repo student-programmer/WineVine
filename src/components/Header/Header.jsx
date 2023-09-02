@@ -12,7 +12,7 @@ const Header = () => {
 	};
 
 	const [auth, setAuth] = useState(false);
-	const [modal, setMoadl] = useState(true);
+	const [modal, setMoadl] = useState(false);
 
 	const toggleModal = () => {
 		setAuth(!auth);

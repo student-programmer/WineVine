@@ -4,7 +4,7 @@ import c from './Catalog.module.css';
 import data from '../../api/data.json';
 import eleven from '../../assets/images/11.png';
 import Coruseles from '../../components/Coruseles/Coruseles';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Catalog = () => {
 	const [count, setCount] = useState(1);
 
@@ -82,7 +82,12 @@ const Catalog = () => {
 								</button>
 							</div>
 						</div>
-						<button className={c.item_button}>{item.button}</button>
+						<button
+							className={c.item_button}
+							onClick={event => event.stopPropagation()}
+						>
+							<Link to='../cart'>{item.button}</Link>
+						</button>
 					</div>
 				))}
 			</div>

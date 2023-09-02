@@ -179,3 +179,79 @@ letter-spacing: 0em;
 text-align: left;
 color:#8C8C8C;
 }
+
+@media (max-width:750px) {
+.modalContent img{
+	display: none;
+}
+.modalContent{
+	width:450px;
+}
+.text1{
+	right:auto;
+	left:50%;
+	transform: translateX(-50%);
+}
+.email_input{
+	left:50%;
+	transform: translateX(-50%);
+
+}
+.password_input{
+	left:50%;
+	transform: translateX(-50%);
+
+}
+.text1{
+	width:220px;
+}
+.input_text1{
+left:90px;	
+}
+.input_text2{
+left:90px;	
+}
+.yes{
+right:auto;
+left:50%;
+transform: translateX(-50%);	
+}
+.modalContent2 img{
+	display:none;
+}
+.modalContent2{
+	width: 450px;
+}
+.text2{
+	left:50%;
+transform: translateX(-50%);	
+}
+.forms{
+	left:50%;
+transform: translateX(-50%);	
+}
+.yes2{
+	left:50%;
+	right:auto;
+	transform: translateX(-50%);
+}
+}
+
+@media (max-width:450px) {
+.modalContent{
+	width:360px;
+}
+.input_text1{
+left:50px;	
+}
+.input_text2{
+left:50px;	
+}
+.modalContent2{
+	width:360px; 
+	
+}
+.forms{
+	gap:20px;
+}
+}

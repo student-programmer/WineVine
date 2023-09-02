@@ -9,7 +9,9 @@ function Coruseles() {
 		<Carousel>
 			<Carousel.Item>
 				<img src={catalogImg} alt='first slide' />
-				<Carousel.Caption></Carousel.Caption>
+				<Carousel.Caption>
+					<h3 className={c.text2}>ВСТУПИ В КЛУБНУЮ ПРОГРАММУ, </h3>
+				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img src={catalogImg2} alt='second slide' />

@@ -25,27 +25,27 @@ const Cart = () => {
 			<form action='' className={c.cart_form}>
 				<h1 className={c.form_name}>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
 				<div>
-					<div>
+					<div className={c.on_input}>
 						<label htmlFor='' className={c.input_label}>
 							{' '}
 							Телефон
 						</label>
 						<input type='text' className={c.input_cart} />
 					</div>
-					<div>
+					<div className={c.on_input}>
 						<label htmlFor='' className={c.input_label}>
 							ФИО
 						</label>
 						<input type='text' className={c.input_cart} />
 					</div>
-					<div>
+					<div className={c.on_input}>
 						<label htmlFor='' className={c.input_label}>
 							E-mail
 						</label>
 						<input type='text' className={c.input_cart} />
 					</div>
 				</div>
-				<div>
+				<div className={c.last_wrapper}>
 					<div className={c.last}>
 						<p>Варианты оплаты</p>
 						<input type='radio' className={c.radio} />
@@ -54,7 +54,7 @@ const Cart = () => {
 						<p>Магазин</p>
 						<input type='radio' className={c.radio} />
 						<p>Богомягова 27</p>
-                    </div>
+					</div>
 				</div>
 			</form>
 		</div>
