@@ -57,6 +57,10 @@ const Cart = () => {
 					</div>
 				</div>
 			</form>
+			<div className={c.sell}>
+				<p className={c.sell_text}>Обратите внимание на условия продажи</p>
+				<button className={c.sell_button}>ОФОРМИТЬ ЗАКАЗ</button>
+			</div>
 		</div>
 	);
 };
