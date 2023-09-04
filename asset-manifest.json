@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/WineVine/static/css/main.360f2b2b.css",
+    "main.js": "/WineVine/static/js/main.c7b00629.js",
+    "static/media/history.png": "/WineVine/static/media/history.a203b2d5afd47628c266.png",
+    "static/media/club.png": "/WineVine/static/media/club.509af3c5dbbc360dc763.png",
+    "static/media/glass.png": "/WineVine/static/media/glass.bac0ae626979ac849ae5.png",
+    "static/media/catalog2.png": "/WineVine/static/media/catalog2.fda871de83ae4b8497a1.png",
+    "static/media/catalog.png": "/WineVine/static/media/catalog.b0b6e390e6142da52f9a.png",
+    "static/media/club2.jpg": "/WineVine/static/media/club2.e9065d9044f934e5d45c.jpg",
+    "static/media/8.png": "/WineVine/static/media/8.06b87fdac102603e2d07.png",
+    "static/media/5.png": "/WineVine/static/media/5.3878a4ce30e575ea6795.png",
+    "static/media/9.png": "/WineVine/static/media/9.8453f720f346981608ed.png",
+    "static/media/map.jpg": "/WineVine/static/media/map.89896a4b9062aabe160a.jpg",
+    "static/media/registration.png": "/WineVine/static/media/registration.221afcd95298b50af628.png",
+    "static/media/2.png": "/WineVine/static/media/2.314185ac4ba78b7ef90b.png",
+    "static/media/auth.png": "/WineVine/static/media/auth.759e8ac955432dc536e6.png",
+    "static/media/product.png": "/WineVine/static/media/product.4bbbdb249fc55eb559bc.png",
+    "static/media/7.png": "/WineVine/static/media/7.0d6d7acf04f0240d8328.png",
+    "static/media/6.png": "/WineVine/static/media/6.f6a9b1925858e8f53418.png",
+    "static/media/1.png": "/WineVine/static/media/1.873dcde00d7cc2e19be2.png",
+    "static/media/11.png": "/WineVine/static/media/11.c7a1d45211adda9f80b4.png",
+    "static/media/bot.png": "/WineVine/static/media/bot.8a312b171a95fa083597.png",
+    "index.html": "/WineVine/index.html",
+    "main.360f2b2b.css.map": "/WineVine/static/css/main.360f2b2b.css.map",
+    "main.c7b00629.js.map": "/WineVine/static/js/main.c7b00629.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.360f2b2b.css",
+    "static/js/main.c7b00629.js"
+  ]
+}
